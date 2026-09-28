@@ -1,0 +1,20 @@
+[project]
+name = "python-in-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Zuhair Haroon Khan", email = "zk222ac@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "agentspan>=0.2.0",
+    "ollama>=0.6.2",
+]
+
+[project.scripts]
+python-in-ai-agent = "python_in_ai_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
